@@ -43,26 +43,34 @@ p{
 	color:#FFFFFF;	
 }
 
-table{
-	
-  border-spacing: 5px;
-  background-color:#A9E2F3 ;
-  border: 1px solid black;
-  border-collapse: collapse;
+.tblcont{
+  background:rgba(0,0,0,0.6); 
+  color:white;
+  text-align: center;
+
 }
-
-tr {
-  height: 40px;
-  border: 1px solid black;
-  border-collapse: collapse;
+.container-fluid h1{
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1.2rem;
 }
-
-
-th {
-  height: 70px;
+#tbltable tr th{
+  text-align: center;
+  font-size: 1.6rem;
 }
+#tbltable #tbltbody tr{
+  color: cyan;
+  font-size: 1.4rem;
+}
+#tbltable #tbltbody tr:hover{
+  background-color: rgba(255, 255, 255, 0.959);
+  color: rgb(0, 119, 255);
 
-
+}
+#tbltable #tbltbody{
+  width: 8rem; 
+  margin-left: 0px;
+}
 
 
 

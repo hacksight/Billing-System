@@ -69,18 +69,19 @@ if(time()-$_SESSION["login_time_stamp"] >1800)
     
 	<hr>
 	
-		<div class="container-fluid ">
+		<div class="container-fluid">
               <div class="row text-center">
                 <div class="colmd-1"></div>
                 <div class="col-md-5 col-sm-6 categories" style="left: 8%;"><img class="img-fluid" src="images\p1.jpg"></img></div>
                 <div class = "col-md-1"></div>
-				        <div class="col-md-4 col-sm-6 categories" style="left: 6%;"> 
-				          <table class="table table-responsive"> 
-                    <tr>
+				        <div class="col-md-4 col-sm-6 categories tblcont" style="left: 6%;"> 
+				          <table class="table table-responsive" id="tbltable"> 
+                    <tr class="text-light">
                       <th width=40%>Clients</th>
                       <th width=30%>Meter Reading</th>
                       <th width=30%>Amount</th>
                     </tr>
+                    <tbody id="tbltbody">
                     <tr>
                       <td>Riya</td>
                       <td>4000</td>
@@ -106,6 +107,7 @@ if(time()-$_SESSION["login_time_stamp"] >1800)
                       <td>8000</td>
                       <td>6000</td>
                     </tr>
+                    </tbody>
                 </table>
                 </div>
         </div>
