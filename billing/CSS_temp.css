@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=David+Libre&family=Lobster&family=Overpass&family=Pacifico&family=Satisfy&display=swap');
+
+:root{
+    --light-gray:#2b3032a1;
+    --first-color:#3B9C9C;
+    --second-color:#0C090A;
+   --lobster:"Lobster",sans-serif;
+   --david:"David Libre";
+   --satisfy:"Satisfy";
+   --pacifico:"Pacifico";
+   --overpass:"Overpass";
+   --bg:#FFFFFF;
+}
+
+
+body{
+  font-family:  Verdana, "Open Sans", Helvetica, Arial;
+  background: url("/billing/images/image.jpg") fixed no-repeat;
+  background-size: 100% 100%;
+}
+
+p{
+  color:black;
+  font-size: 0.55cm;
+  font-family:var(--david);
+}
+
+
+.adm-btn{
+	position: relative;
+	width:250px;
+	height: 140px;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:calibri;
+	top: 20px;
+	left: 50%;
+	bottom: -20px;
+	transform: translateX(-50%);
+	background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+	color:#FFFFFF;	
+}
+
+table{
+	
+  border-spacing: 5px;
+  background-color:#A9E2F3 ;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 40px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+th {
+  height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
