@@ -1,6 +1,6 @@
 body{
     font-family:  Verdana, "Open Sans", Helvetica, Arial;
-    background: url("/billing/images/image.jpg") fixed no-repeat;
+    background: url("images/image.jpg") fixed no-repeat;
     background-size: 100% 100%;
 }
 #sectionid button{

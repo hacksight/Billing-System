@@ -19,7 +19,7 @@ if(time()-$_SESSION["login_time_stamp"] >1800)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BILLING SYSTEM</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS_temp.css"/>
+    <link rel="stylesheet" href="assets/css/CSS_temp.css"/>
     <link href="assets/css/foot.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -72,7 +72,7 @@ if(time()-$_SESSION["login_time_stamp"] >1800)
 		<div class="container-fluid ">
               <div class="row text-center">
                 <div class="colmd-1"></div>
-                <div class="col-md-5 col-sm-6 categories" style="left: 8%;"><img class="img-fluid" src="bill_Image\p1.jpg"></img></div>
+                <div class="col-md-5 col-sm-6 categories" style="left: 8%;"><img class="img-fluid" src="images\p1.jpg"></img></div>
                 <div class = "col-md-1"></div>
 				        <div class="col-md-4 col-sm-6 categories" style="left: 6%;"> 
 				          <table class="table table-responsive"> 
