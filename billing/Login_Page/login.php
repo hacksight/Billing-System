@@ -18,8 +18,12 @@
             session_start();
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
-             $_SESSION["login_time_stamp"] = time();   
-            header("location: ../Admin/Pages/index.php");
+             $_SESSION["login_time_stamp"] = time(); 
+            $s = $result->fetch_array();
+            if($s['role']=='admin')
+                header("location: ../Admin/Pages/index.php");
+            else if($s['role']=='client')
+                header("location: ../Client/Pages/index.php");
         }
         else
             echo '<script type="text/javascript">';

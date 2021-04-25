@@ -41,7 +41,7 @@ if(time()-$_SESSION["login_time_stamp"] >1800)
   </script>
   </head>
   <body>
-  <?php require ('../../header2.html');?> 	
+  <?php require ('header2.html');?> 	
 	<main>
 	<br>
 	<hr> 

@@ -32,7 +32,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php require '../../header2.html'?>
+    <?php require 'header2.html'?>
     <section id='sectionid'>
         <button  id='inpsubmit' name='submit' class="btn btn-dark" onclick='document.location="deleteowner.php"'>Delete Owner</button>
         <button  id='inpsubmit' name='submit' class="btn btn-dark" data-target="#add_ownr" data-toggle="modal">Add New Owner</button>
@@ -72,7 +72,7 @@
                     <td><?php echo $row['mail']?></td>
                     <td><?php echo $row['phone']?></td>
                     <td><a href = "view_histry_ownr.php">View <?php echo $row['fname']?> <?php echo $row['lname']?> History</a></td>
-                    <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view_tenant_modal"><span class="glyphicon glyphicon-eye-open"></span> Tenant Details</button></td>                
+                    <td><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view_tenant_modal<?php echo $row['ID']?>"><span class="glyphicon glyphicon-eye-open"></span> Tenant Details</button></td>                
                     <td><button class="btn btn-warning" data-toggle="modal" type="button" data-target="#update_modal<?php echo $row['ID']?>"><span class="glyphicon glyphicon-edit"></span> Edit</button></td>
                     </tr> 
                 <?php

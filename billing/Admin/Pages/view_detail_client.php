@@ -31,7 +31,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <?php require '../../header2.html'?>
+    <?php require 'header2.html'?>
     <section id='sectionid'>
     <button  id='inpsubmit' name='submit' class="btn btn-dark" onclick='document.location=#'>Delete Tenent</button>
         <button  id='inpsubmit' name='submit' class="btn btn-dark" onclick='document.location=#'>Add New Tenent</button>
